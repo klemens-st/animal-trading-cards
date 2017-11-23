@@ -1,0 +1,30 @@
+.int-fact {
+    font-style: italic;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.details {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    box-shadow: 6px 4px 2px 0px rgb(230, 230, 230)
+}
+
+.border {
+   border: 1px solid rgb(206, 206, 206); 
+}
+
+.information {
+    padding: 0px 10px;
+}
+
+.image {
+    padding: 10px 0px;
+}
