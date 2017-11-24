@@ -31,5 +31,8 @@
 }
 
 .image {
-    padding: 10px 0px;
+    padding: 0px 0px;
+    filter: drop-shadow(4px 4px 10px black);
+    border-radius: 5px;
+    margin: 10px 0px;
 }
