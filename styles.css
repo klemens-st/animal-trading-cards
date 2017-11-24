@@ -16,7 +16,8 @@
 }
 
 .card {
-    color: white;
+    font-family: 'Oswald', sans-serif;
+	color: white;
 	width: 300px;
     padding: 10px;
 	background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/04/kangaroos-500pix-cover-image.jpeg");
