@@ -1,17 +1,17 @@
 @keyframes fromtop {
     from {transform: translateY(-150px);
-	      visibility: visible;}
+          visibility: visible;}
     to {transform: translateY(0px);
-	    visibility: visible;}
+        visibility: visible;}
 }
 
 .header {
-	text-shadow: 4px 4px black;
-	visibility: hidden;
-	animation-name: fromtop;
+    text-shadow: 4px 4px black;
+    visibility: hidden;
+    animation-name: fromtop;
     animation-duration: 1s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 .int-fact {
@@ -34,13 +34,13 @@
 
 .card {
     font-family: 'Oswald', sans-serif;
-	color: white;
-	width: 300px;
+    color: white;
+    width: 300px;
     padding: 10px;
-	background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/04/kangaroos-500pix-cover-image.jpeg");
+    background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/04/kangaroos-500pix-cover-image.jpeg");
     background-position: center;
     background-size: cover;
-	animation-name: flyin;
+    animation-name: flyin;
     animation-duration: 2s;
 }
 
@@ -51,38 +51,38 @@
 }
 
 @keyframes frombottom {
-	from {transform: translateY(500px);
-	      visibility: visible;}
+    from {transform: translateY(500px);
+          visibility: visible;}
     to {transform: translateY(0px);
-	    visibility: visible;}
+        visibility: visible;}
 }
 
 @keyframes blurin {
-	from {filter: blur(50px);}
+    from {filter: blur(50px);}
     to {filter: blur(0px);}
 }
 
 .information {
     padding: 0px 10px;
-	visibility: hidden;
-	animation-name: frombottom;
+    visibility: hidden;
+    animation-name: frombottom;
     animation-duration: 1s;
-	animation-delay: 4s;
-	animation-fill-mode: forwards;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
 }
 
 .information * {
-	animation-name: blurin;
+    animation-name: blurin;
     animation-duration: 1s;
-	animation-delay: 5s;
-	animation-fill-mode: backwards;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
 }
 
 @keyframes fromleft {
     from {transform: translateX(-400px);
-	      visibility: visible;}
+          visibility: visible;}
     to {transform: translateX(0px);
-	    visibility: visible;}
+        visibility: visible;}
 }
 
 .image {
@@ -90,9 +90,9 @@
     filter: drop-shadow(4px 4px 10px black);
     border-radius: 5px;
     margin: 10px 0px;
-	visibility: hidden;
-	animation-name: fromleft;
+    visibility: hidden;
+    animation-name: fromleft;
     animation-duration: 1s;
-	animation-delay: 3s;
-	animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
