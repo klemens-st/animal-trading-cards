@@ -1,3 +1,7 @@
+.header {
+	text-shadow: 4px 4px black;
+}
+
 .int-fact {
     font-style: italic;
 }
